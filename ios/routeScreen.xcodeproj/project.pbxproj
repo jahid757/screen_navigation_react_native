@@ -12,6 +12,10 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		511A44C4065442639782D1AB /* Georama-Italic-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39D5A1ACDC14468EA3AB4245 /* Georama-Italic-VariableFont_wdth,wght.ttf */; };
+		FC11F5AE019D4E479E202EEF /* Georama-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ACD20DFD7564CF3B1714000 /* Georama-VariableFont_wdth,wght.ttf */; };
+		D7A9E0A98C7244FF97262D82 /* Georama.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2D8175742C0437BA87F6FF8 /* Georama.ttf */; };
+		5A5DC440962546D8BF2CC281 /* Oswald-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F58BC5A158C4225BF23002F /* Oswald-VariableFont_wght.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = routeScreen/main.m; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = routeScreen/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		39D5A1ACDC14468EA3AB4245 /* Georama-Italic-VariableFont_wdth,wght.ttf */ = {isa = PBXFileReference; name = "Georama-Italic-VariableFont_wdth,wght.ttf"; path = "../assets/fonts/Georama-Italic-VariableFont_wdth,wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3ACD20DFD7564CF3B1714000 /* Georama-VariableFont_wdth,wght.ttf */ = {isa = PBXFileReference; name = "Georama-VariableFont_wdth,wght.ttf"; path = "../assets/fonts/Georama-VariableFont_wdth,wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D2D8175742C0437BA87F6FF8 /* Georama.ttf */ = {isa = PBXFileReference; name = "Georama.ttf"; path = "../assets/fonts/Georama.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1F58BC5A158C4225BF23002F /* Oswald-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "Oswald-VariableFont_wght.ttf"; path = "../assets/fonts/Oswald-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,7 @@
 				00E356EF1AD99517003FC87E /* routeScreenTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				F30733B105524350839FA39D /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -123,6 +132,18 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		F30733B105524350839FA39D /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				39D5A1ACDC14468EA3AB4245 /* Georama-Italic-VariableFont_wdth,wght.ttf */,
+				3ACD20DFD7564CF3B1714000 /* Georama-VariableFont_wdth,wght.ttf */,
+				D2D8175742C0437BA87F6FF8 /* Georama.ttf */,
+				1F58BC5A158C4225BF23002F /* Oswald-VariableFont_wght.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -214,6 +235,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				511A44C4065442639782D1AB /* Georama-Italic-VariableFont_wdth,wght.ttf in Resources */,
+				FC11F5AE019D4E479E202EEF /* Georama-VariableFont_wdth,wght.ttf in Resources */,
+				D7A9E0A98C7244FF97262D82 /* Georama.ttf in Resources */,
+				5A5DC440962546D8BF2CC281 /* Oswald-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
