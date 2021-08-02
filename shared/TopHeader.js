@@ -1,10 +1,11 @@
 import React from 'react';
 import {View, StyleSheet, Text} from 'react-native';
+import Icon from 'react-native-vector-icons/Entypo'
 
-const TopHeader = () => {
+const TopHeader = ({navigation}) => {
     return (
         <View style={styles.header}>
-            {/* icon */}
+            <Icon style={styles.icon} onPress={() => navigation.openDrawer()} name="menu" size={30} color="#fff" />
             <View>
                 <Text style={styles.text}>Home Page</Text>
             </View>
@@ -19,7 +20,13 @@ const styles = StyleSheet.create({
         alignItems:'center',
     },
     text:{
-        color:'#fff'
+        color:'#fff',
+        fontSize:20,
+        fontWeight:'700'
+    },
+    icon:{
+        position:'absolute',
+        left:10
     }
 })
 

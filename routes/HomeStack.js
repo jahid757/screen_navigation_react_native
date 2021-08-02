@@ -7,7 +7,7 @@ import headerStyle from "../assets/style/headerStyle";
 import TopHeader from "../shared/TopHeader";
 const Stack = createStackNavigator();
 
-const screens = () => {
+const screens = ({navigation}) => {
   return (
     <NavigationContainer independent={true} >
       <Stack.Navigator initialRouteName="Home" screenOptions={{
@@ -17,7 +17,7 @@ const screens = () => {
       }}>
         <Stack.Screen
           options={{
-            headerTitle: () => <TopHeader />
+            headerTitle: () => <TopHeader navigation={navigation} />
           }}
           name="Home"
           component={Home}

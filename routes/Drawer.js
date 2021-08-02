@@ -3,7 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import HomeStack from './HomeStack';
 import AboutStack from './AboutStack';
-import TopHeader from '../shared/TopHeader';
+import PostStack from './PostStack';
 
 const DrawerContainer = createDrawerNavigator();
 const Drawer = () => {
@@ -20,6 +20,7 @@ const Drawer = () => {
                         drawerLabel:'About'
                     }}
                 />
+                <DrawerContainer.Screen name="Post" component={PostStack} />
             </DrawerContainer.Navigator>
         </NavigationContainer>
     )
