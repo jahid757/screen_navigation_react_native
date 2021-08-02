@@ -26,7 +26,7 @@ const Home = ({navigation}) => {
             <Text style={style.red}>Almost before we knew it, we had left the ground. (home Screen)</Text>
             <Text style={styles.text}>Almost before we knew it, we had left the ground. (home Screen)</Text>
             <TouchableOpacity style={{marginBottom:30}}>
-                <Button title="Go To About" onPress={() => navigation.navigate('About')} />
+                <Button title="Go To Review" onPress={() => navigation.navigate('Reviews')} />
             </TouchableOpacity>
         </ScrollView>
     );

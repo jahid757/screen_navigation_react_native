@@ -1,9 +1,9 @@
 import React from 'react';
-import HomeStack from './routes/HomeStack';
+import Drawer from './routes/Drawer';
 
 const App = () => {
   return (
-    <HomeStack/>
+    <Drawer/>
   );
 }
 export default App;
